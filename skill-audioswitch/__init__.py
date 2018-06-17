@@ -1,5 +1,4 @@
-# TODO: Add an appropriate license to your skill before publishing.  See
-# the LICENSE file for more information.
+# AudioSwitch Skill
 __author__ = "jhjessurun"
 
 # Below is the list of outside modules you'll be using in your skill.
@@ -24,8 +23,8 @@ class AudioSwitchSkill(MycroftSkill):
         super(AudioSwitchSkill, self).__init__(name="AudioSwitchSkill")
 
         # Initialize working variables used within the skill.
-        #self.host = '192.168.0.108'
-        self.host =  'localhost'
+        self.host = '192.168.0.108'
+        #self.host =  'localhost'
         self.topic = 'switch/command'
         self.message = '1'
 
